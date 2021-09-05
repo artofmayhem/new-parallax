@@ -5,18 +5,11 @@ import Drawer from "@material-ui/core/Drawer";
 import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
-import ListItemText from "@material-ui/core/ListItemText";
 import MenuIcon from "@material-ui/icons/Menu";
-import EmojiPeopleIcon from "@material-ui/icons/EmojiPeople";
-import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
-import LocalBarIcon from "@material-ui/icons/LocalBar";
-import LocalDiningIcon from "@material-ui/icons/LocalDining";
-import LocalGroceryStoreIcon from "@material-ui/icons/LocalGroceryStore";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import BookIcon from '@material-ui/icons/Book';
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import AllInboxIcon from '@material-ui/icons/AllInbox';
 import React, { useState, useEffect, useRef } from "react";
 import { TimelineLite } from "gsap";
 import { Link } from "react-router-dom";
@@ -102,47 +95,7 @@ export default function Nav() {
               </h2>
             </Link>
           </div>
-          {/* <div className={"my-6 -mr-10 text-black text-4xl w-96"}>
-            <Button>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={"https://www.facebook.com/Grubspace-174436934701864/"}
-              >
-                <FacebookIcon className={""} />
-              </a>
-            </Button>
-            <Button>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={"https://www.instagram.com/amalgamatrix_nation/"}
-              >
-                <InstagramIcon />
-              </a>
-            </Button>
-            <Button>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={"https://twitter.com/tmillhawaii"}
-              >
-                <TwitterIcon />
-              </a>
-            </Button>
-            <Button>
-              <a
-                className={"text-black mr-10"}
-                style={{ fontSize: "10px" }}
-                target="_blank"
-                rel="noreferrer"
-                href={"https://tonymiller.vercel.app"}
-              >
-                <AccountCircleIcon className={"mr-2"} />
-                Login
-              </a>
-            </Button>
-          </div> */}
+        
         </div>
       </AppBar>
       <Drawer
@@ -250,15 +203,51 @@ export default function Nav() {
               <h3 style={{ color: "white" }}>Technical Resume - Tony Miller</h3>
             </a>
           </ListItem>
-          <ListItem button>
-            <a
-              href={"mailto:robodevbots@gmail.com"}
-              className={"mt-4"}
-              onClick={handleDrawerClose}
-            >
-              <h3 style={{ color: "white" }}>Connect</h3>
-            </a>
-          </ListItem>
+         
+          <div className={" flex flex-row text-white mt-20  w-96"}>
+            <Button>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={"https://www.facebook.com/Grubspace-174436934701864/"}
+              >
+                <FacebookIcon className={"text-white"} />
+              </a>
+            </Button>
+            <Button>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={"https://www.instagram.com/amalgamatrix_nation/"}
+              > 
+                <InstagramIcon className={'text-white'}/>
+              </a>
+            </Button>
+            <Button>
+              <a
+                className={"text-white"}
+                style={{ fontSize: "10px" }}
+                target="_blank"
+                rel="noreferrer"
+                href={"https://anthony-8789.medium.com/"}
+              >
+                <BookIcon className={'text-white mr-2'} />
+                Medium
+              </a>
+            </Button>
+            <Button>
+              <a
+                className={"text-white mr-10"}
+                style={{ fontSize: "10px" }}
+                target="_blank"
+                rel="noreferrer"
+                href={"mailto:robodevbots@gmail.com"}
+              >
+                <AllInboxIcon className={"text-white mr-2"} />
+                Connect
+              </a>
+            </Button>
+          </div>
         </List>
       </Drawer>
     </>
