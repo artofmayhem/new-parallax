@@ -9,7 +9,7 @@ const inlineStyle = {
   padding: "20px",
   transform: "translate(-50%, -50%)",
   fontWeight: 600,
-  fontSize: "0.65rem",
+  fontSize: "0.55rem",
   color: "white",
   textShadow: "0 0 1rem black",
   textAlign: "center",
@@ -35,8 +35,9 @@ export default function BottomSection() {
           }}
         >
           <div style={inlineStyle}>
-            <h2>SONVR Design</h2>
-            <h3 className={'text-white'} style={{fontSize: '3px'}}>HONOLULU. HI. 96822</h3>
+            <h2 className={'-ml-6'}>SONVR Design</h2> 
+            <h2 className={'text-gray-800 font-medium -mt-3 ml-16 pl-2'} style={{fontSize: '3px'}}>By Tony Miller</h2>
+            <h3 className={'text-white mt-2 ml-2'} style={{fontSize: '3px'}}>HONOLULU. HI. 96822</h3>
           </div>
         </div>
       )}

@@ -72,7 +72,7 @@ export default function Nav() {
         ref={(el) => (nav = el)}
       >
         <div
-          className={"flex flex-row flex-wrap justify-between align-center"}
+          className={"flex flex-row flex-wrap justify-between align-center w-screen"}
           style={{ backgroundColor: "transparent" }}
         >
           <div
@@ -85,7 +85,8 @@ export default function Nav() {
               <MenuIcon className={" mx-10 text-gray-800"} />
             </Button>
             <Link to="/">
-              <h1 className={"ml-12 text-white"}>SONVR Design</h1>
+              <h1 className={"ml-12 text-gray-400"}>SONVR Design</h1>
+              <h2 className={'text-gray-400 ml-80 pl-7 -mt-11 text-lg font-medium'}>By Tony Miller</h2>
             </Link>
           </div>
           {/* <div className={"my-6 -mr-10 text-black text-4xl w-96"}>

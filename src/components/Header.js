@@ -24,11 +24,11 @@ export default function Header() {
         />
       )}
   >
-    <div className={'w-screen h-screen flex flex-row flex-wrap text-center'}>
-        <h1 className={'text-5xl text-white ml-24 mt-48 font-medium'} >
+    <div className={'h-screen flex flex-column flex-wrap text-center mt-48'} style={{width: '450'}}>
+        <h1 className={'text-5xl ml-24 text-white font-medium'} >
             SONVR Design
         </h1>
-        <h3 className={'mt-72 -ml-60 text-white'}>HONOLULU. HI. 96822</h3>
+        <h2 className={'text-gray-800 font-medium'}>By Tony Miller</h2>
     </div>
   </Parallax>
     )
