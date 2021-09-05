@@ -204,7 +204,7 @@ export default function Nav() {
             </a>
           </ListItem>
          
-          <div className={" flex flex-row text-white mt-20  w-96"}>
+          <div className={" flex flex-row text-white w-96"}>
             <Button>
               <a
                 target="_blank"
