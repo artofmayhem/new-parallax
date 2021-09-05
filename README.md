@@ -3,6 +3,8 @@
     - Tailwind: npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
     - Craco: npm install @craco/craco
     - Material UI: npm install @material-ui/core @material-ui/icons
+    - GSAP: npm install gsap
+    - React-router-dom: npm install react-router-dom
 
 
 ##  Tailwindcss setup
@@ -46,5 +48,7 @@
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+
+## NOTE - if you setup tailwind while project is running you need to restart the project to apply changes
 
 
