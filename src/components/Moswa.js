@@ -5,7 +5,7 @@ export default function MoswaSection() {
 
     return (
         <Parallax
-        blur={{ min: -25, max: 25 }}
+        blur={{ min: -10, max: 10 }}
         bgImage={Moswa}
         bgImageAlt="sketch"
         strength={-200}

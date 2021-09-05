@@ -5,6 +5,7 @@
     - Material UI: npm install @material-ui/core @material-ui/icons
     - GSAP: npm install gsap
     - React-router-dom: npm install react-router-dom
+    - React-parallax: npm install react-parallax
 
 
 ##  Tailwindcss setup
