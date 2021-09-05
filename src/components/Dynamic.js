@@ -20,7 +20,7 @@ export default function Dynamic(props) {
 
 
     return (
-        <Parallax bgImage={DynamicBG} blur={{ min: -1, max: 5 }}>
+        <Parallax bgImage={DynamicBG} blur={{ min: -1, max: 2.5 }}>
         <div style={{ height: 800 }}>
           <div style={inlineStyle}>Dynamic Presentations</div>
         </div>
