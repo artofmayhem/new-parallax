@@ -184,7 +184,7 @@ export default function Nav() {
             <a
               target="_blank"
               rel="noreferrer"
-              href={"https://anywhere-fitness-club.vercel.app"}
+              href={"https://anywherefitnessclub.vercel.app"}
               onClick={handleDrawerClose}
             >
               <h3 style={{ color: "white" }}>Anywhere Fitness Club</h3>
