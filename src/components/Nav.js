@@ -24,16 +24,16 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles({
   list: {
     width: 250,
-    color: 'black'
+    color: "black",
   },
   fullList: {
     width: "50vw",
     backgroundColor: "black",
   },
   listItemText: {
-    color: 'white',
-    fontSize: '1.5rem'
-  }
+    color: "white",
+    fontSize: "1.5rem",
+  },
 });
 
 export default function Nav() {
@@ -154,51 +154,96 @@ export default function Nav() {
           paper: classes.fullList,
         }}
       >
-       <List className={classes.list}>
-       <ListItem >
-              <h1 className={classes.listItemText} >Projects</h1>
+        <List className={classes.list}>
+          <ListItem>
+            <h1 className={classes.listItemText}>Projects</h1>
           </ListItem>
-          <hr style={{color: '#444', width: '30vw', minWidth: 375}}/>
+          <hr style={{ color: "#444", width: "30vw", minWidth: 375 }} />
           <ListItem button>
-            <a href={"https://grubspace.netlify.app"} className={'mt-6'} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}} >Grubspace</h3>
+            <a
+              href={"https://grubspace.netlify.app"}
+              className={"mt-6"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Grubspace</h3>
             </a>
           </ListItem>
           <ListItem button>
-            <Link to={"https://apple-clone-site.netlify.app"} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}}>Apple Clone</h3>
+            <Link
+              to={"https://apple-clone-site.netlify.app"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Apple Clone</h3>
             </Link>
           </ListItem>
           <ListItem button>
-            <a href={"https://anywhere-fitness-club.vercel.app"} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}} >Anywhere Fitness Club</h3>
+            <a
+              href={"https://anywhere-fitness-club.vercel.app"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Anywhere Fitness Club</h3>
             </a>
           </ListItem>
           <ListItem button>
-        
-            <a href={'https://streetartmagazine.netlify.app'} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}}>Street Art Magazine</h3>
+            <a
+              href={"https://streetartmagazine.netlify.app"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Street Art Magazine</h3>
             </a>
           </ListItem>
           <ListItem button>
-       
-          <a href={'https://adidasproductportal.vercel.app'} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}}>Adidas Product Portal</h3>
+            <a
+              href={"https://adidasproductportal.vercel.app"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Adidas Product Portal</h3>
+            </a>
+          </ListItem>{" "}
+          <ListItem>
+            <h1 className={classes.listItemText} style={{marginTop: '3rem'}}>Three.js Animations</h1>
+          </ListItem>
+          <hr style={{ color: "#444", width: "30vw", minWidth: 375 }} />
+          <ListItem button>
+            <a
+              className={"mt-6"}
+              href={"https://jarvisportal.netlify.app"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Marvel API </h3>
             </a>
           </ListItem>
           <ListItem button>
-          <a href={'https://syntech3d.netlify.app'} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}}>Syntech 3D Header</h3>
+            <a
+              href={"https://syntech3d.netlify.app"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Syntech 3D Header</h3>
             </a>
           </ListItem>
           <ListItem button>
-          <a href={'https://drive.google.com/file/d/17TZBey8iB3NjTFbU3Sc96eVprXbRWdB6/view?usp=sharing'} className={'my-32'} onClick={handleDrawerClose}>
-              <h3 style={{color: 'white'}}>Technical Resume - Tony Miller</h3>
+            <a
+              href={
+                "https://drive.google.com/file/d/17TZBey8iB3NjTFbU3Sc96eVprXbRWdB6/view?usp=sharing"
+              }
+              className={"mt-32"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Technical Resume - Tony Miller</h3>
+            </a>
+          </ListItem>
+          <ListItem button>
+            <a
+              href={
+                "mailto:robodevbots@gmail.com"
+              }
+              className={"mt-4"}
+              onClick={handleDrawerClose}
+            >
+              <h3 style={{ color: "white" }}>Connect</h3>
             </a>
           </ListItem>
         </List>
-
-        
       </Drawer>
     </>
   );
