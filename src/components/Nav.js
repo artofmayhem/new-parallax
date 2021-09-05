@@ -162,6 +162,8 @@ export default function Nav() {
           <ListItem button>
             <a
               href={"https://grubspace.netlify.app"}
+              target="_blank"
+              rel="noreferrer"
               className={"mt-6"}
               onClick={handleDrawerClose}
             >
@@ -169,15 +171,19 @@ export default function Nav() {
             </a>
           </ListItem>
           <ListItem button>
-            <Link
-              to={"https://apple-clone-site.netlify.app"}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href={"https://apple-site-clone.netlify.app"}
               onClick={handleDrawerClose}
             >
               <h3 style={{ color: "white" }}>Apple Clone</h3>
-            </Link>
+            </a>
           </ListItem>
           <ListItem button>
             <a
+              target="_blank"
+              rel="noreferrer"
               href={"https://anywhere-fitness-club.vercel.app"}
               onClick={handleDrawerClose}
             >
@@ -186,6 +192,8 @@ export default function Nav() {
           </ListItem>
           <ListItem button>
             <a
+              target="_blank"
+              rel="noreferrer"
               href={"https://streetartmagazine.netlify.app"}
               onClick={handleDrawerClose}
             >
@@ -194,6 +202,8 @@ export default function Nav() {
           </ListItem>
           <ListItem button>
             <a
+              target="_blank"
+              rel="noreferrer"
               href={"https://adidasproductportal.vercel.app"}
               onClick={handleDrawerClose}
             >
@@ -201,11 +211,15 @@ export default function Nav() {
             </a>
           </ListItem>{" "}
           <ListItem>
-            <h1 className={classes.listItemText} style={{marginTop: '3rem'}}>Three.js Animations</h1>
+            <h1 className={classes.listItemText} style={{ marginTop: "3rem" }}>
+              Three.js Animations
+            </h1>
           </ListItem>
           <hr style={{ color: "#444", width: "30vw", minWidth: 375 }} />
           <ListItem button>
             <a
+              target="_blank"
+              rel="noreferrer"
               className={"mt-6"}
               href={"https://jarvisportal.netlify.app"}
               onClick={handleDrawerClose}
@@ -215,6 +229,8 @@ export default function Nav() {
           </ListItem>
           <ListItem button>
             <a
+              target="_blank"
+              rel="noreferrer"
               href={"https://syntech3d.netlify.app"}
               onClick={handleDrawerClose}
             >
@@ -223,10 +239,12 @@ export default function Nav() {
           </ListItem>
           <ListItem button>
             <a
+              target="_blank"
+              rel="noreferrer"
               href={
                 "https://drive.google.com/file/d/17TZBey8iB3NjTFbU3Sc96eVprXbRWdB6/view?usp=sharing"
               }
-              className={"mt-32"}
+              className={"mt-24"}
               onClick={handleDrawerClose}
             >
               <h3 style={{ color: "white" }}>Technical Resume - Tony Miller</h3>
@@ -234,9 +252,7 @@ export default function Nav() {
           </ListItem>
           <ListItem button>
             <a
-              href={
-                "mailto:robodevbots@gmail.com"
-              }
+              href={"mailto:robodevbots@gmail.com"}
               className={"mt-4"}
               onClick={handleDrawerClose}
             >

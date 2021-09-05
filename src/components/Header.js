@@ -25,10 +25,10 @@ export default function Header() {
       )}
   >
     <div className={'h-screen flex flex-column flex-wrap text-center mt-48'} style={{width: '450'}}>
-        <h1 className={'text-5xl ml-24 text-white font-medium'} >
+        <h1 className={'fade-in-up text-5xl ml-24 text-white font-medium'} >
             SONVR Design
         </h1>
-        <h2 className={'text-gray-800 font-medium'}>By Tony Miller</h2>
+        <h2 className={'fade-in-up text-gray-800 font-medium'}>By Tony Miller</h2>
     </div>
   </Parallax>
     )
