@@ -6,10 +6,11 @@ import Button from "@material-ui/core/Button";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import MenuIcon from "@material-ui/icons/Menu";
-import BookIcon from '@material-ui/icons/Book';
+import BookIcon from "@material-ui/icons/Book";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import AllInboxIcon from '@material-ui/icons/AllInbox';
+import AllInboxIcon from "@material-ui/icons/AllInbox";
+import LibraryMusicIcon from "@material-ui/icons/LibraryMusic";
 import React, { useState, useEffect, useRef } from "react";
 import { TimelineLite } from "gsap";
 import { Link } from "react-router-dom";
@@ -95,7 +96,6 @@ export default function Nav() {
               </h2>
             </Link>
           </div>
-        
         </div>
       </AppBar>
       <Drawer
@@ -197,30 +197,49 @@ export default function Nav() {
               href={
                 "https://drive.google.com/file/d/17TZBey8iB3NjTFbU3Sc96eVprXbRWdB6/view?usp=sharing"
               }
-              className={"mt-24"}
+              className={"mt-20"}
               onClick={handleDrawerClose}
             >
               <h3 style={{ color: "white" }}>Technical Resume - Tony Miller</h3>
             </a>
           </ListItem>
-         
-          <div className={" flex flex-row text-white w-96"}>
+          <div className={" flex flex-row text-white w-96 pt-6"}>
             <Button>
               <a
+                className={"text-white"}
+                style={{ fontSize: "10px" }}
                 target="_blank"
                 rel="noreferrer"
                 href={"https://www.facebook.com/Grubspace-174436934701864/"}
               >
                 <FacebookIcon className={"text-white"} />
+                Facebook
               </a>
             </Button>
             <Button>
               <a
+                className={"text-white"}
+                style={{ fontSize: "10px" }}
                 target="_blank"
                 rel="noreferrer"
                 href={"https://www.instagram.com/amalgamatrix_nation/"}
-              > 
-                <InstagramIcon className={'text-white'}/>
+              >
+                <InstagramIcon className={"text-white"} />
+                Instagram
+              </a>
+            </Button>
+            <Button>
+              <a
+                className={"text-white"}
+                style={{ fontSize: "10px" }}
+                target="_blank"
+                rel="noreferrer"
+                href={
+                  "https://open.spotify.com/artist/6UbBiEtVM1z4XbIqWRXzL5?si=2-3KKYEuRLS8YC0THR_RwA&dl_branch=1"
+                }
+              >
+                <LibraryMusicIcon className={"text-white mr-2"} />
+                Spotify
               </a>
             </Button>
             <Button>
@@ -231,7 +250,7 @@ export default function Nav() {
                 rel="noreferrer"
                 href={"https://anthony-8789.medium.com/"}
               >
-                <BookIcon className={'text-white mr-2'} />
+                <BookIcon className={"text-white mr-2"} />
                 Medium
               </a>
             </Button>
