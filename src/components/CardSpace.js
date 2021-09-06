@@ -84,7 +84,7 @@ export default function CardSpace() {
       {/* Copy Container */}
       <div className={"text-center flex-column justify-evenly text-white text-4xl"} style={{width: '50vw', minWidth: '375px'}}>
         <h3 className={"pb-96"}>The art...</h3>
-        <h3 className={"pt-96"}>of evocation</h3>
+        <h3 className={"pt-96 text-5xl"}>of evocation</h3>
       </div>
       {/* Photo Container */}
       <div
