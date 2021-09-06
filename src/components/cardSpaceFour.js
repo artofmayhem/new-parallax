@@ -8,20 +8,13 @@ export default function CardSpaceFour() {
   return (
     <div className="hover02 column  flex flex-row flex-wrap items-center text-white py-32 bg-white">
       {" "}
-      {/* <div
-        className={"text-black content-center text-center text-2xl"}
-        style={{ width: "50vw" }}
-      >
-        <img src={ArchitecturalDigest} alt="Architectural Digest" />
-        <h3 style={{fontWeight: '400'}} className={'mt-20'}>Cross platform performance to capture your wide ranging audience</h3>
-      </div> */}
       <div
         className="flex flex-row flex-wrap items-start py-1 text-center"
-        style={{ width: "50vw" }}
+        style={{ maxWidth: "50vw", minWidth: '375px' }}
       >
         <Parallax
           bgImage={DirectionOne}
-          style={{ width: "auto", boxShadow: "0 1rem 2rem black" }}
+          style={{ width: "100%", boxShadow: "0 1rem 2rem black" }}
           strength={-200}
         >
           <div style={{ height: 900 }}>
@@ -31,11 +24,11 @@ export default function CardSpaceFour() {
       </div>{" "}
       <div
         className="flex flex-row flex-wrap items-start py-1 text-center"
-        style={{ width: "50vw" }}
+        style={{ maxWidth: "50vw", minWidth: '375px' }}
       >
         <Parallax
           bgImage={DirectionThree}
-          style={{ width: "auto", boxShadow: "0 1rem 2rem black" }}
+          style={{ width: "100%", boxShadow: "0 1rem 2rem black" }}
           strength={200}
         >
           <div style={{ height: 900 }}>

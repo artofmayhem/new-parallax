@@ -80,20 +80,21 @@ export default function CardSpace() {
   }, []); // eslint-disable-line
 
   return (
-    <div className="flex flex-column justify-center items-center py-1 bg-black h-auto">
+    <div className="flex flex-row flex-wrap justify-evenly items-center py-1 bg-black h-auto">
       {/* Copy Container */}
-      <div className={"text-center text-white text-4xl"}>
+      <div className={"text-center text-white text-4xl"} style={{width: '50vw', minWidth: '375px'}}>
         <h3 className={"pb-96"}>The art...</h3>
         <h3 className={"pt-96"}>of the evocative</h3>
       </div>
       {/* Photo Container */}
       <div
-        className={"flex flex-column flex-wrap justify-evenly py-3 h-auto"}
+        className={"flex flex-col flex-wrap justify-evenly items-center py-3  h-auto"}
+        style={{width: '50vw', minWidth: '375px'}}
         ref={(el) => (splash = el)}
       >
         <div
-          className="flex flex-column justify-center my-20 text-center"
-          style={{ width: 350, boxShadow: "0 0 8rem white" }}
+          className="flex flex-col justify-center my-20 text-center"
+          style={{ width: '30vw', minWidth: 375, boxShadow: "0 0 8rem white" }}
         >
           <Parallax
             bgImage={BW1}
@@ -108,7 +109,7 @@ export default function CardSpace() {
         
         <div
           className="flex flex-column justify-center my-20 text-center"
-          style={{ width: "30vw", minWidth: 375 }}
+          style={{ width: '30vw', minWidth: 375, }}
         >
           <Parallax
             bgImage={BW2}
@@ -120,7 +121,7 @@ export default function CardSpace() {
         </div>
         <div
           className="flex flex-row flex-wrap justify-center my-20 text-center"
-          style={{ width: 350, boxShadow: "0 0 8rem white" }}
+          style={{ width: '30vw', minWidth: 375, boxShadow: "0 0 8rem white" }}
         >
           <Parallax
             bgImage={BW3}
