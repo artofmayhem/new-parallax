@@ -185,10 +185,10 @@ export default function Nav() {
             <a
               target="_blank"
               rel="noreferrer"
-              href={"https://syntech3d.netlify.app"}
+              href={"https://animation-header.vercel.app/"}
               onClick={handleDrawerClose}
             >
-              <h3 style={{ color: "white" }}>Syntech 3D Header</h3>
+              <h3 style={{ color: "white" }}>Threejs Animation Header</h3>
             </a>
           </ListItem>
           <ListItem button>
