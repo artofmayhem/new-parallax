@@ -82,9 +82,9 @@ export default function CardSpace() {
   return (
     <div className="flex flex-row flex-wrap justify-evenly items-center py-1 bg-black h-auto">
       {/* Copy Container */}
-      <div className={"text-center text-white text-4xl"} style={{width: '50vw', minWidth: '375px'}}>
+      <div className={"text-center flex-column justify-evenly text-white text-4xl"} style={{width: '50vw', minWidth: '375px'}}>
         <h3 className={"pb-96"}>The art...</h3>
-        <h3 className={"pt-96"}>of the evocative</h3>
+        <h3 className={"pt-96"}>of evocation</h3>
       </div>
       {/* Photo Container */}
       <div
@@ -114,7 +114,7 @@ export default function CardSpace() {
           <Parallax
             bgImage={BW2}
             style={{ boxShadow: "0 1rem 2rem black" }}
-            strength={-200}
+            strength={-300}
           >
             <div style={{ height: 800 }}></div>
           </Parallax>
