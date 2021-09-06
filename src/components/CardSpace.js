@@ -101,7 +101,7 @@ export default function CardSpace() {
             style={{ width: "auto", boxShadow: "0 1rem 2rem black" }}
             strength={-200}
           >
-            <div style={{ height: 800 }}>
+            <div style={{ height: 700 }}>
               <div style={inlineStyle}></div>
             </div>
           </Parallax>
@@ -116,7 +116,7 @@ export default function CardSpace() {
             style={{ boxShadow: "0 1rem 2rem black" }}
             strength={-300}
           >
-            <div style={{ height: 800 }}></div>
+            <div style={{ height: 700 }}></div>
           </Parallax>
         </div>
         <div
@@ -128,7 +128,7 @@ export default function CardSpace() {
             style={{ boxShadow: "0 1rem 2rem black" }}
             strength={-200}
           >
-            <div style={{ height: 800 }}></div>
+            <div style={{ height: 700 }}></div>
           </Parallax>
         </div>
       </div>
