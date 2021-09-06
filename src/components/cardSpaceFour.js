@@ -6,7 +6,7 @@ export default function CardSpaceFour() {
   //instantiate variables for intro and splash
 
   return (
-    <div className="hover02 column  flex flex-row flex-wrap items-center text-white py-32 bg-white">
+    <div className="justify-center flex flex-row flex-wrap items-center text-white py-32 bg-white">
       {" "}
       <div
         className="flex flex-row flex-wrap items-start py-1 text-center"
