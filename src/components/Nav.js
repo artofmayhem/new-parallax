@@ -22,6 +22,7 @@ const useStyles = makeStyles({
   },
   fullList: {
     width: "50vw",
+    minWidth: '350px',
     backgroundColor: "black",
   },
   listItemText: {
