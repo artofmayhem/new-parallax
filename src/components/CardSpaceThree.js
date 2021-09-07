@@ -7,7 +7,7 @@ export default function CardSpaceTwo() {
   return (
     <Parallax
     className={'flex justify-center items-center content-center ml-96 pt-48'} 
-    style={{maxWidth: '100vw',height: '80vh', minWidth: 375}} 
+    style={{maxWidth: '100vw', height: '80vh', minWidth: 375}} 
     blur={{ min: -15, max: 15 }}
     strength={-200}
     renderLayer={(percentage) => (
