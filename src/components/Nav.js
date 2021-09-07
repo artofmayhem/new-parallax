@@ -198,7 +198,7 @@ export default function Nav() {
               href={
                 "https://drive.google.com/file/d/17TZBey8iB3NjTFbU3Sc96eVprXbRWdB6/view?usp=sharing"
               }
-              className={"mt-20"}
+              className={"mt-16"}
               onClick={handleDrawerClose}
             >
               <h3 style={{ color: "white" }}>Technical Resume - Tony Miller</h3>
