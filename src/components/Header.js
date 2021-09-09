@@ -16,7 +16,7 @@ export default function Header() {
             width: "100px",
             height: "100px",
             borderRadius: "50%",
-            background: `rgba(234, 68, 68, ${percentage * 1})`,
+            background: `rgba(0, 0, 0, ${percentage * 1})`,
             left: "20%",
             top: "25%",
             transform: `translate(-50%, -50%) scale(${percentage * 5})`,
@@ -28,7 +28,7 @@ export default function Header() {
         <h1 className={'fade-in-up text-5xl ml-24 text-white font-medium'} >
             SONVR Design
         </h1>
-        <h2 className={'fade-in-up text-gray-800 font-medium'}>By Tony Miller</h2>
+        <h2 className={'fade-in-up text-gray-500 font-medium'}>By Tony Miller</h2>
     </div>
   </Parallax>
     )

@@ -87,11 +87,12 @@ export default function Nav() {
               <MenuIcon className={" mx-10 text-gray-800"} />
             </Button>
             <Link to="/">
-              <h1 className={"ml-12 text-gray-400"}>SONVR Design</h1>
+              <h1 className={"ml-12 text-gray-400"} style={{fontWeight: 400}}>SONVR Design</h1>
               <h2
                 className={
                   "text-gray-400 ml-80 pl-7 -mt-11 text-lg font-medium"
                 }
+                style={{ fontWeight: 400 }}
               >
                 By Tony Miller
               </h2>
