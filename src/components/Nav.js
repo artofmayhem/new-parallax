@@ -197,7 +197,7 @@ export default function Nav() {
               target="_blank"
               rel="noreferrer"
               href={
-                "https://drive.google.com/file/d/17TZBey8iB3NjTFbU3Sc96eVprXbRWdB6/view?usp=sharing"
+                "https://docs.google.com/document/d/1lY9cVgS24Q6LwRttXwEUbZ3cdlBw-Wkm/edit?usp=sharing&ouid=106635714999524264471&rtpof=true&sd=true"
               }
               className={"mt-16"}
               onClick={handleDrawerClose}
